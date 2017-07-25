@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZhuDome_Example' do
+  pod 'ZhuDome', :path => '../'
+
+  target 'ZhuDome_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
