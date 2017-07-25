@@ -1,0 +1,6 @@
+framework module ZhuDome {
+  umbrella header "ZhuDome-umbrella.h"
+
+  export *
+  module * { export * }
+}

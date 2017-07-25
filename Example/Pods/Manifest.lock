@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - ZhuDome (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ZhuDome (from `../`)
+
+EXTERNAL SOURCES:
+  ZhuDome:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ZhuDome: 27865fa57b61a1d0babc457288fdcf5fabc73129
+
+PODFILE CHECKSUM: 9993795e29322abe3826f68aac82d0140e9f25a8
+
+COCOAPODS: 1.2.1

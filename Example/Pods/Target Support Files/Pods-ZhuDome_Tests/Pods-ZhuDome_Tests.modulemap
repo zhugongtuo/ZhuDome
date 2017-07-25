@@ -1,0 +1,6 @@
+framework module Pods_ZhuDome_Tests {
+  umbrella header "Pods-ZhuDome_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
